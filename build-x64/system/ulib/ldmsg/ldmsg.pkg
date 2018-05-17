@@ -1,0 +1,10 @@
+[package]
+name=ldmsg
+type=lib
+arch=x86
+[includes]
+ldmsg/ldmsg.h=SOURCE/system/ulib/ldmsg/include/ldmsg/ldmsg.h
+[lib]
+lib/libldmsg.a=BUILD/system/ulib/ldmsg/libldmsg.a
+[deps]
+zircon

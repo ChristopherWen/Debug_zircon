@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS ""
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I./build-x64-release/kernel/lib/vdso/gen/include_-Iglobal/include_-Ikernel/lib/vdso/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/musl/include_-ffreestanding"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS "-T_scripts/rodso.ld"
+#define MODULE_SRCDEPS "./build-x64-release/config-user.h"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/zircon/data.S_system/ulib/zircon/syscall-wrappers.cpp_system/ulib/zircon/syscalls-x86-64.S_system/ulib/zircon/zx_cache_flush.cpp_system/ulib/zircon/zx_channel_call.cpp_system/ulib/zircon/zx_deadline_after.cpp_system/ulib/zircon/zx_futex_wake_handle_close_thread_exit-x86-64.S_system/ulib/zircon/zx_status_get_string.cpp_system/ulib/zircon/zx_system_get_dcache_line_size.cpp_system/ulib/zircon/zx_system_get_features.cpp_system/ulib/zircon/zx_system_get_num_cpus.cpp_system/ulib/zircon/zx_system_get_physmem.cpp_system/ulib/zircon/zx_system_get_version.cpp_system/ulib/zircon/zx_ticks_get.cpp_system/ulib/zircon/zx_ticks_per_second.cpp_system/ulib/zircon/zx_vmar_unmap_handle_close_thread_exit-x86-64.S"
+#define MODULE_HEADER_DEPS "kernel/lib/vdso"
+#define MODULE_TYPE "userlib"
+

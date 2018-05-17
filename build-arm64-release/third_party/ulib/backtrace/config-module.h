@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "third_party/ulib/ngunwind_system/ulib/zircon_system/ulib/c"
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I./build-arm64-release/system/ulib/c/gen/include_-I./build-arm64-release/system/ulib/zircon/gen/include_-I./build-arm64-release/third_party/ulib/ngunwind/gen/include_-Iglobal/include_-Isystem/ulib/c/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/backtrace/include_-Ithird_party/ulib/musl/include_-Ithird_party/ulib/ngunwind/include_-fno-omit-frame-pointer_-mno-omit-leaf-frame-pointer"
+#define MODULE_CFLAGS "-Ithird_party/ulib/backtrace/include/backtrace"
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64-release/config-user.h_./build-arm64-release/system/ulib/c/gen-hdr.stamp_./build-arm64-release/system/ulib/zircon/gen-hdr.stamp_./build-arm64-release/third_party/ulib/ngunwind/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "third_party/ulib/backtrace/alloc.c_third_party/ulib/backtrace/dwarf.c_third_party/ulib/backtrace/elf.c_third_party/ulib/backtrace/fileline.c_third_party/ulib/backtrace/posix.c_third_party/ulib/backtrace/read.c_third_party/ulib/backtrace/sort.c_third_party/ulib/backtrace/state.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/zircon_third_party/ulib/ngunwind"
+#define MODULE_TYPE "userlib"
+

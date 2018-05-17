@@ -1,0 +1,12 @@
+[package]
+name=pretty
+type=lib
+arch=x86
+[includes]
+pretty/hexdump.h=SOURCE/system/ulib/pretty/include/pretty/hexdump.h
+pretty/sizes.h=SOURCE/system/ulib/pretty/include/pretty/sizes.h
+[lib]
+lib/libpretty.a=BUILD/system/ulib/pretty/libpretty.a
+[deps]
+c
+fdio

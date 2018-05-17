@@ -1,0 +1,1 @@
+INPUT(build-x64-release/kernel/lib/heap/kernel/lib/heap/heap_wrapper.cpp.o)

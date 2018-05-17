@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/c"
+#define MODULE_STATIC_LIBS "system/ulib/gpt_system/ulib/zircon"
+#define MODULE_COMPILEFLAGS "-I./build-x64/system/ulib/c/gen/include_-I./build-x64/system/ulib/gpt/gen/include_-I./build-x64/system/ulib/zircon/gen/include_-Iglobal/include_-Isystem/ulib/c/include_-Isystem/ulib/chromeos-disk-setup/include_-Isystem/ulib/gpt/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64/config-user.h_./build-x64/system/ulib/c/gen-hdr.stamp_./build-x64/system/ulib/gpt/gen-hdr.stamp_./build-x64/system/ulib/zircon/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/chromeos-disk-setup/chromeos-disk-setup.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/gpt_system/ulib/zircon"
+#define MODULE_TYPE "userlib"
+

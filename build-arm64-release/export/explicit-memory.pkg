@@ -1,0 +1,8 @@
+[package]
+name=explicit-memory
+type=lib
+arch=arm64
+[includes]
+explicit-memory/bytes.h=SOURCE/system/ulib/explicit-memory/include/explicit-memory/bytes.h
+[lib]
+lib/libexplicit-memory.a=BUILD/system/ulib/explicit-memory/libexplicit-memory.a

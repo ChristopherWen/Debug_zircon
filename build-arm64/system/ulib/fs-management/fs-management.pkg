@@ -1,0 +1,17 @@
+[package]
+name=fs-management
+type=lib
+arch=arm64
+[includes]
+fs-management/mount.h=SOURCE/system/ulib/fs-management/include/fs-management/mount.h
+fs-management/ram-nand.h=SOURCE/system/ulib/fs-management/include/fs-management/ram-nand.h
+fs-management/ramdisk.h=SOURCE/system/ulib/fs-management/include/fs-management/ramdisk.h
+[lib]
+debug/libfs-management.so=BUILD/system/ulib/fs-management/libfs-management.so
+dist/libfs-management.so=BUILD/system/ulib/fs-management/libfs-management.so.strip
+lib/libfs-management.so=BUILD/system/ulib/fs-management/libfs-management.so.abi
+[deps]
+c
+fdio
+launchpad
+zircon

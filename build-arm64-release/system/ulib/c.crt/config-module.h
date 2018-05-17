@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS ""
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I._-Iglobal/include_-Ithird_party/ulib/musl/arch/aarch64_-Ithird_party/ulib/musl/include_-Ithird_party/ulib/musl/src/internal_-Ithird_party/ulib/musl/third_party/include"
+#define MODULE_CFLAGS "-D_XOPEN_SOURCE=700_-Ithird_party/ulib/musl/../jemalloc/include_-U_ALL_SOURCE_-Werror=incompatible-pointer-types_-Wno-implicit-fallthrough_-Wno-sign-compare_-ffreestanding"
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64-release/config-user.h"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "third_party/ulib/musl/arch/aarch64/Scrt1.S"
+#define MODULE_HEADER_DEPS ""
+#define MODULE_TYPE "userlib"
+

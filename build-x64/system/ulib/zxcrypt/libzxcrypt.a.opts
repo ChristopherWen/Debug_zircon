@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/zxcrypt/libzxcrypt.a build-x64/system/ulib/zxcrypt/system/ulib/zxcrypt/volume.cpp.o

@@ -1,0 +1,16 @@
+[package]
+name=hid-parser
+type=lib
+arch=x86
+[includes]
+hid-parser/item.h=SOURCE/system/ulib/hid-parser/include/hid-parser/item.h
+hid-parser/parser.h=SOURCE/system/ulib/hid-parser/include/hid-parser/parser.h
+hid-parser/usages.h=SOURCE/system/ulib/hid-parser/include/hid-parser/usages.h
+[lib]
+lib/libhid-parser.a=BUILD/system/ulib/hid-parser/libhid-parser.a
+[static-deps]
+fbl
+zxcpp
+[deps]
+c
+zircon

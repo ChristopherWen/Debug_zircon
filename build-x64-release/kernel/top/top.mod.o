@@ -1,0 +1,1 @@
+INPUT(build-x64-release/kernel/top/kernel/top/init.cpp.o build-x64-release/kernel/top/kernel/top/main.cpp.o)

@@ -1,0 +1,19 @@
+#pragma once
+#define KERNEL_ASPACE_BASE 0xffffff8000000000UL
+#define KERNEL_ASPACE_SIZE 0x0000008000000000UL
+#define USER_ASPACE_BASE 0x0000000001000000UL
+#define USER_ASPACE_SIZE 0x00007ffffefff000UL
+#define LK_DEBUGLEVEL 0
+#define ZX_DEBUGLEVEL 0
+#define GLOBAL_INCLUDES "-Isystem/public_-Isystem/private_-I./build-x64-release/gen/global/include"
+#define GLOBAL_COMPILEFLAGS "-O2_-g_-fdebug-prefix-map=/home/wsy/zircon=._-finline_-include_./build-x64-release/config-global.h_-Wall_-Wextra_-Wno-multichar_-Werror_-Wno-error=deprecated-declarations_-Wno-unused-parameter_-Wno-unused-function_-Werror=unused-label_-Werror=return-type_-fno-common_-ffunction-sections_-fdata-sections_-Wno-nonnull-compare_-march=x86-64_-mcx16_-malign-data=abi"
+#define GLOBAL_OPTFLAGS ""
+#define GLOBAL_CFLAGS "-std=c11_-Werror-implicit-function-declaration_-Wstrict-prototypes_-Wwrite-strings_"
+#define GLOBAL_CPPFLAGS "-std=c++14_-fno-exceptions_-fno-rtti_-fno-threadsafe-statics_-Wconversion_-Wno-sign-conversion"
+#define GLOBAL_ASMFLAGS ""
+#define GLOBAL_LDFLAGS "-nostdlib_--build-id_-z_noexecstack_-z_max-page-size=4096_--gc-sections"
+#define ARCH_COMPILEFLAGS ""
+#define ARCH_CFLAGS ""
+#define ARCH_CPPFLAGS ""
+#define ARCH_ASMFLAGS ""
+#define __Fuchsia__ 1

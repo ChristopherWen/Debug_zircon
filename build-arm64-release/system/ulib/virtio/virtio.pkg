@@ -1,0 +1,17 @@
+[package]
+name=virtio
+type=lib
+arch=arm64
+[includes]
+virtio/balloon.h=SOURCE/system/ulib/virtio/include/virtio/balloon.h
+virtio/block.h=SOURCE/system/ulib/virtio/include/virtio/block.h
+virtio/console.h=SOURCE/system/ulib/virtio/include/virtio/console.h
+virtio/gpu.h=SOURCE/system/ulib/virtio/include/virtio/gpu.h
+virtio/input.h=SOURCE/system/ulib/virtio/include/virtio/input.h
+virtio/net.h=SOURCE/system/ulib/virtio/include/virtio/net.h
+virtio/virtio.h=SOURCE/system/ulib/virtio/include/virtio/virtio.h
+virtio/virtio_ids.h=SOURCE/system/ulib/virtio/include/virtio/virtio_ids.h
+virtio/virtio_ring.h=SOURCE/system/ulib/virtio/include/virtio/virtio_ring.h
+virtio/vsock.h=SOURCE/system/ulib/virtio/include/virtio/vsock.h
+[lib]
+lib/libvirtio.a=BUILD/system/ulib/virtio/libvirtio.a

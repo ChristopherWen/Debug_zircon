@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/inet6/libinet6.a build-x64/system/ulib/inet6/system/ulib/inet6/inet6.c.o build-x64/system/ulib/inet6/system/ulib/inet6/netifc.c.o build-x64/system/ulib/inet6/system/ulib/inet6/eth-client.c.o

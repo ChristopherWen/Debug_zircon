@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/inspector/libinspector.a build-x64-release/system/ulib/inspector/system/ulib/inspector/backtrace.cpp.o build-x64-release/system/ulib/inspector/system/ulib/inspector/dso-list.cpp.o build-x64-release/system/ulib/inspector/system/ulib/inspector/registers.cpp.o build-x64-release/system/ulib/inspector/system/ulib/inspector/utils.cpp.o

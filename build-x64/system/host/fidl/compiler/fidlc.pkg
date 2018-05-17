@@ -1,0 +1,6 @@
+[package]
+name=fidlc
+type=tool
+arch=host
+[bin]
+fidlc=BUILD/tools/fidlc

@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS ""
+#define MODULE_STATIC_LIBS "system/ulib/pretty_system/ulib/sync"
+#define MODULE_COMPILEFLAGS "-I./build-arm64/system/ulib/pretty/gen/include_-I./build-arm64/system/ulib/sync/gen/include_-Iglobal/include_-Isystem/ulib/ddk/include_-Isystem/ulib/pretty/include_-Isystem/ulib/sync/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64/config-user.h_./build-arm64/system/ulib/pretty/gen-hdr.stamp_./build-arm64/system/ulib/sync/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/ddk/io-buffer.c_system/ulib/ddk/phys-iter.c_system/ulib/ddk/usb-request.c"
+#define MODULE_HEADER_DEPS "system/ulib/pretty_system/ulib/sync"
+#define MODULE_TYPE "userlib"
+

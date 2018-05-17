@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/bootdata/libbootdata.a build-x64/system/ulib/bootdata/system/ulib/bootdata/decompress.c.o

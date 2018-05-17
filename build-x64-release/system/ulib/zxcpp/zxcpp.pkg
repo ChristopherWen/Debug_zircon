@@ -1,0 +1,12 @@
+[package]
+name=zxcpp
+type=lib
+arch=src
+[includes]
+zxcpp/new.h=SOURCE/system/ulib/zxcpp/include/zxcpp/new.h
+[src]
+new.cpp=SOURCE/system/ulib/zxcpp/new.cpp
+pure_virtual.cpp=SOURCE/system/ulib/zxcpp/pure_virtual.cpp
+thread_atexit.cpp=SOURCE/system/ulib/zxcpp/thread_atexit.cpp
+[static-deps]
+c

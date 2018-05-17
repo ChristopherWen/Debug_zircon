@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/tftp/libtftp.a build-x64-release/system/ulib/tftp/system/ulib/tftp/tftp.c.o

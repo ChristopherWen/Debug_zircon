@@ -1,0 +1,13 @@
+build-arm64-release/boot-shim/gauss/boot-shim.S.o: \
+ kernel/target/arm64/boot-shim/boot-shim.S \
+ build-arm64-release/config-global.h kernel/include/asm.h \
+ kernel/arch/arm64/include/arch/asm_macros.h \
+ system/public/zircon/boot/bootdata.h
+
+build-arm64-release/config-global.h:
+
+kernel/include/asm.h:
+
+kernel/arch/arm64/include/arch/asm_macros.h:
+
+system/public/zircon/boot/bootdata.h:

@@ -1,0 +1,19 @@
+#pragma once
+#define KERNEL_ASPACE_BASE 0xffff000000000000
+#define KERNEL_ASPACE_SIZE 0x0001000000000000
+#define USER_ASPACE_BASE 0x0000000001000000
+#define USER_ASPACE_SIZE 0x0000fffffe000000
+#define LK_DEBUGLEVEL 0
+#define ZX_DEBUGLEVEL 0
+#define GLOBAL_INCLUDES "-Isystem/public_-Isystem/private_-I./build-arm64-release/gen/global/include"
+#define GLOBAL_COMPILEFLAGS "-O2_-g_-fdebug-prefix-map=/home/wsy/zircon=._-finline_-include_./build-arm64-release/config-global.h_-Wall_-Wextra_-Wno-multichar_-Werror_-Wno-error=deprecated-declarations_-Wno-unused-parameter_-Wno-unused-function_-Werror=unused-label_-Werror=return-type_-fno-common_-ffunction-sections_-fdata-sections_-Wno-nonnull-compare"
+#define GLOBAL_OPTFLAGS ""
+#define GLOBAL_CFLAGS "-std=c11_-Werror-implicit-function-declaration_-Wstrict-prototypes_-Wwrite-strings"
+#define GLOBAL_CPPFLAGS "-std=c++14_-fno-exceptions_-fno-rtti_-fno-threadsafe-statics_-Wconversion_-Wno-sign-conversion"
+#define GLOBAL_ASMFLAGS ""
+#define GLOBAL_LDFLAGS "-nostdlib_--build-id_-z_noexecstack_-z_max-page-size=4096_--gc-sections"
+#define ARCH_COMPILEFLAGS "__-mcpu=cortex-a53_-ffixed-x18"
+#define ARCH_CFLAGS ""
+#define ARCH_CPPFLAGS ""
+#define ARCH_ASMFLAGS ""
+#define __Fuchsia__ 1

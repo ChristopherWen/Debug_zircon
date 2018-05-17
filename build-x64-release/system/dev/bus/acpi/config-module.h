@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/driver_system/ulib/zircon_system/ulib/c_system/ulib/fdio_"
+#define MODULE_STATIC_LIBS "system/ulib/ddk_system/ulib/ddktl_system/ulib/hid_third_party/ulib/acpica_third_party/ulib/chromiumos-platform-ec_system/ulib/zxcpp_system/ulib/fbl_"
+#define MODULE_COMPILEFLAGS "-I./build-x64-release/system/ulib/c/gen/include_-I./build-x64-release/system/ulib/ddk/gen/include_-I./build-x64-release/system/ulib/ddktl/gen/include_-I./build-x64-release/system/ulib/driver/gen/include_-I./build-x64-release/system/ulib/fbl/gen/include_-I./build-x64-release/system/ulib/fdio/gen/include_-I./build-x64-release/system/ulib/hid/gen/include_-I./build-x64-release/system/ulib/zircon/gen/include_-I./build-x64-release/system/ulib/zxcpp/gen/include_-I./build-x64-release/third_party/ulib/acpica/gen/include_-I./build-x64-release/third_party/ulib/chromiumos-platform-ec/gen/include_-Iglobal/include_-Isystem/dev/bus/acpi/include_-Isystem/ulib/c/include_-Isystem/ulib/ddk/include_-Isystem/ulib/ddktl/include_-Isystem/ulib/driver/include_-Isystem/ulib/fbl/include_-Isystem/ulib/fdio/include_-Isystem/ulib/hid/include_-Isystem/ulib/zircon/include_-Isystem/ulib/zxcpp/include_-Ithird_party/lib/acpica/source/include_-Ithird_party/ulib/acpica/include_-Ithird_party/ulib/chromiumos-platform-ec/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS "-fno-strict-aliasing"
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64-release/config-user.h_./build-x64-release/system/ulib/c/gen-hdr.stamp_./build-x64-release/system/ulib/ddk/gen-hdr.stamp_./build-x64-release/system/ulib/ddktl/gen-hdr.stamp_./build-x64-release/system/ulib/driver/gen-hdr.stamp_./build-x64-release/system/ulib/fbl/gen-hdr.stamp_./build-x64-release/system/ulib/fdio/gen-hdr.stamp_./build-x64-release/system/ulib/hid/gen-hdr.stamp_./build-x64-release/system/ulib/zircon/gen-hdr.stamp_./build-x64-release/system/ulib/zxcpp/gen-hdr.stamp_./build-x64-release/third_party/ulib/acpica/gen-hdr.stamp_./build-x64-release/third_party/ulib/chromiumos-platform-ec/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/dev/bus/acpi/bus-acpi.c_system/dev/bus/acpi/cpu-trace.c_system/dev/bus/acpi/debug.c_system/dev/bus/acpi/dev-battery.c_system/dev/bus/acpi/dev-cros-ec/dev.cpp_system/dev/bus/acpi/dev-cros-ec/motion.cpp_system/dev/bus/acpi/dev-ec.c_system/dev/bus/acpi/dev-pwrsrc.c_system/dev/bus/acpi/dev-tbmc.cpp_system/dev/bus/acpi/dev-thermal.c_system/dev/bus/acpi/init.c_system/dev/bus/acpi/pci.c_system/dev/bus/acpi/power.c_system/dev/bus/acpi/powerbtn.c_system/dev/bus/acpi/resources.c_system/dev/bus/acpi/util.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/ddk_system/ulib/ddktl_system/ulib/driver_system/ulib/fbl_system/ulib/fdio_system/ulib/hid_system/ulib/zircon_system/ulib/zxcpp_third_party/ulib/acpica_third_party/ulib/chromiumos-platform-ec"
+#define MODULE_TYPE "driver"
+

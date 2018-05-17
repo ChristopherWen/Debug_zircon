@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/perftest/libperftest.a build-x64-release/system/ulib/perftest/system/ulib/perftest/results.cpp.o build-x64-release/system/ulib/perftest/system/ulib/perftest/runner.cpp.o

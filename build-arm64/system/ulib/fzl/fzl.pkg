@@ -1,0 +1,10 @@
+[package]
+name=fzl
+type=lib
+arch=src
+[includes]
+lib/fzl/time.h=SOURCE/system/ulib/fzl/include/lib/fzl/time.h
+[src]
+time.cpp=SOURCE/system/ulib/fzl/time.cpp
+[deps]
+zx

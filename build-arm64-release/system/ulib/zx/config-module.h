@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/zircon"
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I./build-arm64-release/system/ulib/zircon/gen/include_-Iglobal/include_-Isystem/ulib/zircon/include_-Isystem/ulib/zx/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64-release/config-user.h_./build-arm64-release/system/ulib/zircon/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/zx/channel.cpp_system/ulib/zx/event.cpp_system/ulib/zx/eventpair.cpp_system/ulib/zx/fifo.cpp_system/ulib/zx/guest.cpp_system/ulib/zx/interrupt.cpp_system/ulib/zx/job.cpp_system/ulib/zx/log.cpp_system/ulib/zx/port.cpp_system/ulib/zx/process.cpp_system/ulib/zx/resource.cpp_system/ulib/zx/socket.cpp_system/ulib/zx/thread.cpp_system/ulib/zx/timer.cpp_system/ulib/zx/vmar.cpp_system/ulib/zx/vmo.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/zircon"
+#define MODULE_TYPE "userlib"
+

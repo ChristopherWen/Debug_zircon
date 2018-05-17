@@ -1,0 +1,1 @@
+cr build-arm64-release/system/ulib/runtime/libruntime.a build-arm64-release/system/ulib/runtime/system/ulib/runtime/message.c.o build-arm64-release/system/ulib/runtime/system/ulib/runtime/mutex.c.o build-arm64-release/system/ulib/runtime/system/ulib/runtime/processargs.c.o build-arm64-release/system/ulib/runtime/system/ulib/runtime/thread.c.o

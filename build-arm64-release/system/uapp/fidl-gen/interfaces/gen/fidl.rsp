@@ -1,0 +1,1 @@
+--c-header ./build-arm64-release/system/uapp/fidl-gen/interfaces/gen/include/library.h --tables ./build-arm64-release/system/uapp/fidl-gen/interfaces/gen/src/library.cpp --files system/uapp/fidl-gen/interfaces/test.fidl

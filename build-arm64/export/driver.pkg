@@ -1,0 +1,14 @@
+[package]
+name=driver
+type=lib
+arch=arm64
+[includes]
+driver/usb.h=SOURCE/system/ulib/driver/include/driver/usb.h
+[lib]
+debug/libdriver.so=BUILD/system/ulib/driver/libdriver.so
+dist/libdriver.so=BUILD/system/ulib/driver/libdriver.so.strip
+lib/libdriver.so=BUILD/system/ulib/driver/libdriver.so.abi
+[deps]
+c
+fdio
+zircon

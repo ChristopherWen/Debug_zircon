@@ -1,0 +1,1 @@
+cr build-x64/third_party/ulib/cksum/libcksum.a build-x64/third_party/ulib/cksum/third_party/ulib/cksum/adler32.c.o build-x64/third_party/ulib/cksum/third_party/ulib/cksum/crc16.c.o build-x64/third_party/ulib/cksum/third_party/ulib/cksum/crc32.c.o

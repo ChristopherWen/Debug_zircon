@@ -1,0 +1,1 @@
+INPUT(build-x64-release/kernel/lib/memory_limit/kernel/lib/memory_limit/memory_limit.cpp.o build-x64-release/kernel/lib/memory_limit/kernel/lib/memory_limit/memory_limit_tests.cpp.o)

@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/mdns/libmdns.a build-x64/system/ulib/mdns/system/ulib/mdns/mdns.c.o

@@ -1,0 +1,1 @@
+INPUT(build-x64-release/kernel/lib/fbl/kernel/lib/fbl/arena.cpp.o build-x64-release/kernel/lib/fbl/kernel/lib/fbl/arena_tests.cpp.o build-x64-release/kernel/lib/fbl/kernel/lib/fbl/inline_array_tests.cpp.o build-x64-release/kernel/lib/fbl/kernel/lib/fbl/name_tests.cpp.o build-x64-release/kernel/lib/fbl/system/ulib/fbl/alloc_checker.cpp.o)

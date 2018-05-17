@@ -1,0 +1,10 @@
+[package]
+name=linenoise
+type=lib
+arch=x86
+[includes]
+linenoise/linenoise.h=SOURCE/third_party/ulib/linenoise/include/linenoise/linenoise.h
+[lib]
+lib/liblinenoise.a=BUILD/third_party/ulib/linenoise/liblinenoise.a
+[deps]
+fdio

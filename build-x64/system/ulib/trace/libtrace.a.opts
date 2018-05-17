@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/trace/libtrace.a build-x64/system/ulib/trace/system/ulib/trace/event.cpp.o build-x64/system/ulib/trace/system/ulib/trace/handler.cpp.o build-x64/system/ulib/trace/system/ulib/trace/observer.cpp.o

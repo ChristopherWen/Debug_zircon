@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/zircon_system/ulib/c"
+#define MODULE_STATIC_LIBS "system/ulib/fidl_system/ulib/fbl_system/ulib/zxcpp_system/ulib/zx"
+#define MODULE_COMPILEFLAGS "-I./build-x64-release/system/ulib/c/gen/include_-I./build-x64-release/system/ulib/fbl/gen/include_-I./build-x64-release/system/ulib/fidl/gen/include_-I./build-x64-release/system/ulib/zircon/gen/include_-I./build-x64-release/system/ulib/zx/gen/include_-I./build-x64-release/system/ulib/zxcpp/gen/include_-Iglobal/include_-Isystem/ulib/c/include_-Isystem/ulib/fbl/include_-Isystem/ulib/fdio/include_-Isystem/ulib/fidl/include_-Isystem/ulib/zircon/include_-Isystem/ulib/zx/include_-Isystem/ulib/zxcpp/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64-release/config-user.h_./build-x64-release/system/ulib/c/gen-hdr.stamp_./build-x64-release/system/ulib/fbl/gen-hdr.stamp_./build-x64-release/system/ulib/fidl/gen-hdr.stamp_./build-x64-release/system/ulib/zircon/gen-hdr.stamp_./build-x64-release/system/ulib/zx/gen-hdr.stamp_./build-x64-release/system/ulib/zxcpp/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/fdio/bsdsocket.c_system/ulib/fdio/debug.c_system/ulib/fdio/fidl.cpp_system/ulib/fdio/get-vmo.c_system/ulib/fdio/logger.c_system/ulib/fdio/namespace.c_system/ulib/fdio/newsocket.c_system/ulib/fdio/null.c_system/ulib/fdio/output.c_system/ulib/fdio/pipe.c_system/ulib/fdio/remoteio.c_system/ulib/fdio/service.c_system/ulib/fdio/socketpair.c_system/ulib/fdio/stubs.c_system/ulib/fdio/uname.c_system/ulib/fdio/unistd.c_system/ulib/fdio/vmofile.c_system/ulib/fdio/waitable.c_system/ulib/fdio/watcher.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/fbl_system/ulib/fidl_system/ulib/zircon_system/ulib/zx_system/ulib/zxcpp"
+#define MODULE_TYPE "userlib"
+

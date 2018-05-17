@@ -1,0 +1,1 @@
+cr build-arm64/system/ulib/edid/libedid.a build-arm64/system/ulib/edid/system/ulib/edid/edid.cpp.o

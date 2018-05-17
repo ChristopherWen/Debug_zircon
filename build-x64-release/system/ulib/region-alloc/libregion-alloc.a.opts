@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/region-alloc/libregion-alloc.a build-x64-release/system/ulib/region-alloc/system/ulib/region-alloc/region-alloc.cpp.o build-x64-release/system/ulib/region-alloc/system/ulib/region-alloc/region-alloc-c-api.cpp.o

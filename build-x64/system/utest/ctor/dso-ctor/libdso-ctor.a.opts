@@ -1,0 +1,1 @@
+cr build-x64/system/utest/ctor/dso-ctor/libdso-ctor.a build-x64/system/utest/ctor/dso-ctor/system/utest/ctor/dso-ctor/dso-ctor.cpp.o

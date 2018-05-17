@@ -1,0 +1,1 @@
+cr build-x64/third_party/ulib/cryptolib/libcryptolib.a build-x64/third_party/ulib/cryptolib/third_party/ulib/cryptolib/cryptolib.c.o

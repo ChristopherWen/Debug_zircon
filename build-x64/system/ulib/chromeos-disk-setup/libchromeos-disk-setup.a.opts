@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/chromeos-disk-setup/libchromeos-disk-setup.a build-x64/system/ulib/chromeos-disk-setup/system/ulib/chromeos-disk-setup/chromeos-disk-setup.c.o

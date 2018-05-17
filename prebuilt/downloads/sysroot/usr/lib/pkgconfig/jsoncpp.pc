@@ -1,0 +1,14 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include/jsoncpp
+
+version = 0.6.0
+
+name = jsoncpp
+pkgname = libjsoncpp0
+
+Name: ${name}
+Version: ${version}
+Description: Jsoncpp library version 0.6.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -ljsoncpp

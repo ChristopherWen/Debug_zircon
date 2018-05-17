@@ -1,0 +1,15 @@
+[package]
+name=syslog
+type=lib
+arch=arm64
+[includes]
+syslog/global.h=SOURCE/system/ulib/syslog/include/syslog/global.h
+syslog/logger.h=SOURCE/system/ulib/syslog/include/syslog/logger.h
+syslog/wire_format.h=SOURCE/system/ulib/syslog/include/syslog/wire_format.h
+[lib]
+debug/libsyslog.so=BUILD/system/ulib/syslog/libsyslog.so
+dist/libsyslog.so=BUILD/system/ulib/syslog/libsyslog.so.strip
+lib/libsyslog.so=BUILD/system/ulib/syslog/libsyslog.so.abi
+[deps]
+c
+zircon

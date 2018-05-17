@@ -1,0 +1,11 @@
+[package]
+name=sync
+type=lib
+arch=x86
+[includes]
+sync/completion.h=SOURCE/system/ulib/sync/include/sync/completion.h
+sync/futex.h=SOURCE/system/ulib/sync/include/sync/futex.h
+[lib]
+lib/libsync.a=BUILD/system/ulib/sync/libsync.a
+[deps]
+zircon

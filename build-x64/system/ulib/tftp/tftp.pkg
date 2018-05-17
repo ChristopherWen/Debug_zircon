@@ -1,0 +1,11 @@
+[package]
+name=tftp
+type=lib
+arch=x86
+[includes]
+tftp/tftp.h=SOURCE/system/ulib/tftp/include/tftp/tftp.h
+[lib]
+lib/libtftp.a=BUILD/system/ulib/tftp/libtftp.a
+[deps]
+c
+zircon

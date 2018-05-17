@@ -1,0 +1,16 @@
+[package]
+name=async
+type=lib
+arch=src
+[includes]
+lib/async/dispatcher.h=SOURCE/system/ulib/async/include/lib/async/dispatcher.h
+lib/async/receiver.h=SOURCE/system/ulib/async/include/lib/async/receiver.h
+lib/async/task.h=SOURCE/system/ulib/async/include/lib/async/task.h
+lib/async/time.h=SOURCE/system/ulib/async/include/lib/async/time.h
+lib/async/trap.h=SOURCE/system/ulib/async/include/lib/async/trap.h
+lib/async/wait.h=SOURCE/system/ulib/async/include/lib/async/wait.h
+[src]
+ops.c=SOURCE/system/ulib/async/ops.c
+[deps]
+c
+zircon

@@ -1,0 +1,11 @@
+[package]
+name=mdns
+type=lib
+arch=x86
+[includes]
+mdns/mdns.h=SOURCE/system/ulib/mdns/include/mdns/mdns.h
+[lib]
+lib/libmdns.a=BUILD/system/ulib/mdns/libmdns.a
+[deps]
+c
+zircon

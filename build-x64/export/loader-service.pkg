@@ -1,0 +1,16 @@
+[package]
+name=loader-service
+type=lib
+arch=x86
+[includes]
+loader-service/loader-service.h=SOURCE/system/ulib/loader-service/include/loader-service/loader-service.h
+[lib]
+lib/libloader-service.a=BUILD/system/ulib/loader-service/libloader-service.a
+[static-deps]
+async
+async-loop
+ldmsg
+[deps]
+c
+fdio
+zircon

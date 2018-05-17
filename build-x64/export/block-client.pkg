@@ -1,0 +1,15 @@
+[package]
+name=block-client
+type=lib
+arch=x86
+[includes]
+block-client/client.h=SOURCE/system/ulib/block-client/include/block-client/client.h
+[lib]
+lib/libblock-client.a=BUILD/system/ulib/block-client/libblock-client.a
+[static-deps]
+fs
+sync
+[deps]
+c
+fdio
+zircon

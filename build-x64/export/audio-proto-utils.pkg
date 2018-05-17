@@ -1,0 +1,10 @@
+[package]
+name=audio-proto-utils
+type=lib
+arch=src
+[includes]
+audio-proto-utils/format-utils.h=SOURCE/system/ulib/audio-proto-utils/include/audio-proto-utils/format-utils.h
+[src]
+format-utils.cpp=SOURCE/system/ulib/audio-proto-utils/format-utils.cpp
+[static-deps]
+fbl

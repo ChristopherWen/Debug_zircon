@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/driver_system/ulib/zircon_system/ulib/c"
+#define MODULE_STATIC_LIBS "system/ulib/ddk_system/ulib/ddktl_system/ulib/edid_system/ulib/fbl_system/ulib/hwreg_system/ulib/region-alloc_system/ulib/zx_system/ulib/zxcpp_"
+#define MODULE_COMPILEFLAGS "-I./build-x64-release/system/ulib/c/gen/include_-I./build-x64-release/system/ulib/ddk/gen/include_-I./build-x64-release/system/ulib/ddktl/gen/include_-I./build-x64-release/system/ulib/driver/gen/include_-I./build-x64-release/system/ulib/edid/gen/include_-I./build-x64-release/system/ulib/fbl/gen/include_-I./build-x64-release/system/ulib/hwreg/gen/include_-I./build-x64-release/system/ulib/region-alloc/gen/include_-I./build-x64-release/system/ulib/zircon/gen/include_-I./build-x64-release/system/ulib/zx/gen/include_-I./build-x64-release/system/ulib/zxcpp/gen/include_-Iglobal/include_-Isystem/dev/display/intel-i915/include_-Isystem/ulib/c/include_-Isystem/ulib/ddk/include_-Isystem/ulib/ddktl/include_-Isystem/ulib/driver/include_-Isystem/ulib/edid/include_-Isystem/ulib/fbl/include_-Isystem/ulib/hwreg/include_-Isystem/ulib/region-alloc/include_-Isystem/ulib/zircon/include_-Isystem/ulib/zx/include_-Isystem/ulib/zxcpp/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64-release/config-user.h_./build-x64-release/system/ulib/c/gen-hdr.stamp_./build-x64-release/system/ulib/ddk/gen-hdr.stamp_./build-x64-release/system/ulib/ddktl/gen-hdr.stamp_./build-x64-release/system/ulib/driver/gen-hdr.stamp_./build-x64-release/system/ulib/edid/gen-hdr.stamp_./build-x64-release/system/ulib/fbl/gen-hdr.stamp_./build-x64-release/system/ulib/hwreg/gen-hdr.stamp_./build-x64-release/system/ulib/region-alloc/gen-hdr.stamp_./build-x64-release/system/ulib/zircon/gen-hdr.stamp_./build-x64-release/system/ulib/zx/gen-hdr.stamp_./build-x64-release/system/ulib/zxcpp/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/dev/display/intel-i915/bind.c_system/dev/display/intel-i915/bootloader-display.cpp_system/dev/display/intel-i915/display-device.cpp_system/dev/display/intel-i915/dp-display.cpp_system/dev/display/intel-i915/gtt.cpp_system/dev/display/intel-i915/hdmi-display.cpp_system/dev/display/intel-i915/igd.cpp_system/dev/display/intel-i915/intel-i915.cpp_system/dev/display/intel-i915/interrupts.cpp_system/dev/display/intel-i915/power.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/ddk_system/ulib/ddktl_system/ulib/driver_system/ulib/edid_system/ulib/fbl_system/ulib/hwreg_system/ulib/region-alloc_system/ulib/zircon_system/ulib/zx_system/ulib/zxcpp"
+#define MODULE_TYPE "driver"
+

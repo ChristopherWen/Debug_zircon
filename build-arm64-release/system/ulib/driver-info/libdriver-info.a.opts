@@ -1,0 +1,1 @@
+cr build-arm64-release/system/ulib/driver-info/libdriver-info.a build-arm64-release/system/ulib/driver-info/system/ulib/driver-info/driver-info.c.o

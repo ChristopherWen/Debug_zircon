@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/ldmsg/libldmsg.a build-x64/system/ulib/ldmsg/system/ulib/ldmsg/ldmsg.c.o

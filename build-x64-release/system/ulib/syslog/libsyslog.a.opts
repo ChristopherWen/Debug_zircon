@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/syslog/libsyslog.a build-x64-release/system/ulib/syslog/system/ulib/syslog/fx_logger.cpp.o build-x64-release/system/ulib/syslog/system/ulib/syslog/global.cpp.o build-x64-release/system/ulib/syslog/system/ulib/syslog/logger.cpp.o

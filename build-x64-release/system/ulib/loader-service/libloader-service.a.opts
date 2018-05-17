@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/loader-service/libloader-service.a build-x64-release/system/ulib/loader-service/system/ulib/loader-service/loader-service.c.o

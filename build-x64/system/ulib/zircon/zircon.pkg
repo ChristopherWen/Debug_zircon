@@ -1,0 +1,10 @@
+[package]
+name=zircon
+type=lib
+arch=x86
+[includes]
+zircon/status.h=SOURCE/system/ulib/zircon/include/zircon/status.h
+[lib]
+debug/libzircon.so=BUILD/system/ulib/zircon/libzircon.so
+dist/libzircon.so=BUILD/system/ulib/zircon/libzircon.so.strip
+lib/libzircon.so=BUILD/system/ulib/zircon/libzircon.so.abi

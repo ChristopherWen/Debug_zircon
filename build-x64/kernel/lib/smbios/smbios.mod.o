@@ -1,0 +1,1 @@
+INPUT(build-x64/kernel/lib/smbios/system/ulib/smbios/smbios.cpp.o)

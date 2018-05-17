@@ -1,0 +1,14 @@
+[package]
+name=async-loop
+type=lib
+arch=src
+[includes]
+lib/async-loop/loop.h=SOURCE/system/ulib/async-loop/include/lib/async-loop/loop.h
+[src]
+loop.c=SOURCE/system/ulib/async-loop/loop.c
+[static-deps]
+async
+[deps]
+async-default
+c
+zircon

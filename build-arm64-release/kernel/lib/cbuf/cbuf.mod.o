@@ -1,0 +1,1 @@
+INPUT(build-arm64-release/kernel/lib/cbuf/kernel/lib/cbuf/cbuf.c.o)

@@ -1,0 +1,1 @@
+cr build-arm64-clang/system/ulib/syslog/libsyslog.a build-arm64-clang/system/ulib/syslog/system/ulib/syslog/fx_logger.cpp.o build-arm64-clang/system/ulib/syslog/system/ulib/syslog/global.cpp.o build-arm64-clang/system/ulib/syslog/system/ulib/syslog/logger.cpp.o

@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/ddk/libddk.a build-x64-release/system/ulib/ddk/system/ulib/ddk/io-buffer.c.o build-x64-release/system/ulib/ddk/system/ulib/ddk/phys-iter.c.o build-x64-release/system/ulib/ddk/system/ulib/ddk/usb-request.c.o

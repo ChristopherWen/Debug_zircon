@@ -1,0 +1,16 @@
+[package]
+name=bitmap
+type=lib
+arch=arm64
+[includes]
+bitmap/bitmap.h=SOURCE/system/ulib/bitmap/include/bitmap/bitmap.h
+bitmap/raw-bitmap.h=SOURCE/system/ulib/bitmap/include/bitmap/raw-bitmap.h
+bitmap/rle-bitmap.h=SOURCE/system/ulib/bitmap/include/bitmap/rle-bitmap.h
+bitmap/storage.h=SOURCE/system/ulib/bitmap/include/bitmap/storage.h
+[lib]
+debug/libbitmap.so=BUILD/system/ulib/bitmap/libbitmap.so
+dist/libbitmap.so=BUILD/system/ulib/bitmap/libbitmap.so.strip
+lib/libbitmap.so=BUILD/system/ulib/bitmap/libbitmap.so.abi
+[deps]
+c
+zircon

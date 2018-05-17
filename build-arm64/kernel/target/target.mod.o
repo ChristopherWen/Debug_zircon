@@ -1,0 +1,1 @@
+INPUT(build-arm64/kernel/target/kernel/target/init.cpp.o)

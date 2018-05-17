@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/c.crt/libc.crt.a build-x64/system/ulib/c.crt/third_party/ulib/musl/arch/x86_64/Scrt1.S.o

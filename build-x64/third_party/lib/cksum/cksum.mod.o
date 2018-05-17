@@ -1,0 +1,1 @@
+INPUT(build-x64/third_party/lib/cksum/third_party/ulib/cksum/adler32.c.o build-x64/third_party/lib/cksum/third_party/ulib/cksum/crc16.c.o build-x64/third_party/lib/cksum/third_party/ulib/cksum/crc32.c.o)

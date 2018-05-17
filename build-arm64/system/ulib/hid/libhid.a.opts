@@ -1,0 +1,1 @@
+cr build-arm64/system/ulib/hid/libhid.a build-arm64/system/ulib/hid/system/ulib/hid/acer12.c.o build-arm64/system/ulib/hid/system/ulib/hid/egalax.c.o build-arm64/system/ulib/hid/system/ulib/hid/hid.c.o build-arm64/system/ulib/hid/system/ulib/hid/keymaps.c.o build-arm64/system/ulib/hid/system/ulib/hid/paradise.c.o build-arm64/system/ulib/hid/system/ulib/hid/samsung.c.o

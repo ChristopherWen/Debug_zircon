@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/async_system/ulib/async-loop_system/ulib/async-loop.cpp_system/ulib/c_system/ulib/fbl_system/ulib/trace_system/ulib/trace-engine_system/ulib/trace-provider_system/ulib/unittest_system/ulib/zircon_system/ulib/zx_"
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I./build-x64/system/ulib/async-loop.cpp/gen/include_-I./build-x64/system/ulib/async-loop/gen/include_-I./build-x64/system/ulib/async/gen/include_-I./build-x64/system/ulib/c/gen/include_-I./build-x64/system/ulib/fbl/gen/include_-I./build-x64/system/ulib/trace-engine/gen/include_-I./build-x64/system/ulib/trace-provider/gen/include_-I./build-x64/system/ulib/trace/gen/include_-I./build-x64/system/ulib/unittest/gen/include_-I./build-x64/system/ulib/zircon/gen/include_-I./build-x64/system/ulib/zx/gen/include_-Iglobal/include_-Isystem/ulib/async-loop.cpp/include_-Isystem/ulib/async-loop/include_-Isystem/ulib/async/include_-Isystem/ulib/c/include_-Isystem/ulib/fbl/include_-Isystem/ulib/perftest/include_-Isystem/ulib/trace-engine/include_-Isystem/ulib/trace-provider/include_-Isystem/ulib/trace/include_-Isystem/ulib/unittest/include_-Isystem/ulib/zircon/include_-Isystem/ulib/zx/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64/config-user.h_./build-x64/system/ulib/async-loop.cpp/gen-hdr.stamp_./build-x64/system/ulib/async-loop/gen-hdr.stamp_./build-x64/system/ulib/async/gen-hdr.stamp_./build-x64/system/ulib/c/gen-hdr.stamp_./build-x64/system/ulib/fbl/gen-hdr.stamp_./build-x64/system/ulib/trace-engine/gen-hdr.stamp_./build-x64/system/ulib/trace-provider/gen-hdr.stamp_./build-x64/system/ulib/trace/gen-hdr.stamp_./build-x64/system/ulib/unittest/gen-hdr.stamp_./build-x64/system/ulib/zircon/gen-hdr.stamp_./build-x64/system/ulib/zx/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/perftest/results.cpp_system/ulib/perftest/runner.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/async_system/ulib/async-loop_system/ulib/async-loop.cpp_system/ulib/c_system/ulib/fbl_system/ulib/trace_system/ulib/trace-engine_system/ulib/trace-provider_system/ulib/unittest_system/ulib/zircon_system/ulib/zx"
+#define MODULE_TYPE "userlib"
+

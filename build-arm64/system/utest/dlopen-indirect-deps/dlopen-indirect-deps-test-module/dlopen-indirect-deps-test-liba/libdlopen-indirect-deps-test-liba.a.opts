@@ -1,0 +1,1 @@
+cr build-arm64/system/utest/dlopen-indirect-deps/dlopen-indirect-deps-test-module/dlopen-indirect-deps-test-liba/libdlopen-indirect-deps-test-liba.a build-arm64/system/utest/dlopen-indirect-deps/dlopen-indirect-deps-test-module/dlopen-indirect-deps-test-liba/system/utest/dlopen-indirect-deps/dlopen-indirect-deps-test-module/dlopen-indirect-deps-test-liba/liba.c.o

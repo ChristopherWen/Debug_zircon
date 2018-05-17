@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS ""
+#define MODULE_STATIC_LIBS "system/ulib/fbl_system/ulib/zx_"
+#define MODULE_COMPILEFLAGS "-I./build-arm64-release/system/ulib/fbl/gen/include_-I./build-arm64-release/system/ulib/zx/gen/include_-Iglobal/include_-Isystem/ulib/dispatcher-pool/include_-Isystem/ulib/fbl/include_-Isystem/ulib/zx/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64-release/config-user.h_./build-arm64-release/system/ulib/fbl/gen-hdr.stamp_./build-arm64-release/system/ulib/zx/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/dispatcher-pool/dispatcher-channel.cpp_system/ulib/dispatcher-pool/dispatcher-event-source.cpp_system/ulib/dispatcher-pool/dispatcher-execution-domain.cpp_system/ulib/dispatcher-pool/dispatcher-thread-pool.cpp_system/ulib/dispatcher-pool/dispatcher-timer.cpp_system/ulib/dispatcher-pool/dispatcher-wakeup-event.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/fbl_system/ulib/zx"
+#define MODULE_TYPE "userlib"
+

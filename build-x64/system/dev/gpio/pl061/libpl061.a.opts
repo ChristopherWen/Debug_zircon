@@ -1,0 +1,1 @@
+cr build-x64/system/dev/gpio/pl061/libpl061.a build-x64/system/dev/gpio/pl061/system/dev/gpio/pl061/pl061.c.o

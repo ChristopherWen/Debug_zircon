@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/trace-provider/libtrace-provider.a build-x64/system/ulib/trace-provider/system/ulib/trace-provider/handler_impl.cpp.o build-x64/system/ulib/trace-provider/system/ulib/trace-provider/provider_impl.cpp.o build-x64/system/ulib/trace-provider/system/ulib/trace-provider/trace_provider.fidl.cpp.o

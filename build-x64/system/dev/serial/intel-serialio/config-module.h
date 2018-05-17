@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/driver_system/ulib/zircon_system/ulib/c"
+#define MODULE_STATIC_LIBS "system/ulib/ddk"
+#define MODULE_COMPILEFLAGS "-I_-I./build-x64/system/ulib/c/gen/include_-I./build-x64/system/ulib/ddk/gen/include_-I./build-x64/system/ulib/driver/gen/include_-I./build-x64/system/ulib/zircon/gen/include_-Iglobal/include_-Isystem/dev/serial/intel-serialio/include_-Isystem/ulib/c/include_-Isystem/ulib/ddk/include_-Isystem/ulib/driver/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/musl/include_system/dev/serial/intel-serialio/intel-serialio-include/"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64/config-user.h_./build-x64/system/ulib/c/gen-hdr.stamp_./build-x64/system/ulib/ddk/gen-hdr.stamp_./build-x64/system/ulib/driver/gen-hdr.stamp_./build-x64/system/ulib/zircon/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/dev/serial/intel-serialio/dma/dma.c_system/dev/serial/intel-serialio/sdio/sdio.c_system/dev/serial/intel-serialio/serialio.c_system/dev/serial/intel-serialio/spi/spi.c_system/dev/serial/intel-serialio/uart/uart.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/ddk_system/ulib/driver_system/ulib/zircon"
+#define MODULE_TYPE "driver"
+

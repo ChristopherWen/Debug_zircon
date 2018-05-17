@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/trace-engine/libtrace-engine.a build-x64-release/system/ulib/trace-engine/system/ulib/trace-engine/context.cpp.o build-x64-release/system/ulib/trace-engine/system/ulib/trace-engine/engine.cpp.o build-x64-release/system/ulib/trace-engine/system/ulib/trace-engine/nonce.cpp.o

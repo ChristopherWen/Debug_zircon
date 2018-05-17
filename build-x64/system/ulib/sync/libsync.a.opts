@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/sync/libsync.a build-x64/system/ulib/sync/system/ulib/sync/completion.c.o

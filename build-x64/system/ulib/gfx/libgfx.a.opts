@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/gfx/libgfx.a build-x64/system/ulib/gfx/system/ulib/gfx/gfx.c.o

@@ -1,0 +1,1 @@
+cr build-x64-release/system/dev/soc/amlogic/libamlogic.a build-x64-release/system/dev/soc/amlogic/system/dev/soc/amlogic/a113-clocks.c.o build-x64-release/system/dev/soc/amlogic/system/dev/soc/amlogic/aml-usb-phy-v2.c.o

@@ -1,0 +1,9 @@
+#define USERBOOT_FILENAME "./build-arm64-clang/system/core/userboot/libuserboot.so"
+#define USERBOOT_DATA_START_dynsym 0x1418
+#define USERBOOT_DATA_END_dynsym (USERBOOT_DATA_START_dynsym + 0x30)
+#define USERBOOT_CODE_START 0x3000
+#define USERBOOT_CODE_END (((USERBOOT_CODE_START + 0xd000 + (1 << PAGE_SIZE_SHIFT) - 1) >> PAGE_SIZE_SHIFT) << PAGE_SIZE_SHIFT)
+#define USERBOOT_ENTRY 0x3ac0
+#define USERBOOT_ENTRY_SIZE 0x40
+#define USERBOOT_DYNSYM__end 1
+#define USERBOOT_DYNSYM_COUNT 2

@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/elfload/libelfload.a build-x64-release/system/ulib/elfload/system/ulib/elfload/elf-load.c.o

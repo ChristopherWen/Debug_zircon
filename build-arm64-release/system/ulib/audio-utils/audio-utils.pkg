@@ -1,0 +1,17 @@
+[package]
+name=audio-utils
+type=lib
+arch=src
+[includes]
+audio-utils/audio-device-stream.h=SOURCE/system/ulib/audio-utils/include/audio-utils/audio-device-stream.h
+audio-utils/audio-input.h=SOURCE/system/ulib/audio-utils/include/audio-utils/audio-input.h
+audio-utils/audio-output.h=SOURCE/system/ulib/audio-utils/include/audio-utils/audio-output.h
+audio-utils/audio-stream.h=SOURCE/system/ulib/audio-utils/include/audio-utils/audio-stream.h
+[src]
+audio-device-stream.cpp=SOURCE/system/ulib/audio-utils/audio-device-stream.cpp
+audio-input.cpp=SOURCE/system/ulib/audio-utils/audio-input.cpp
+audio-output.cpp=SOURCE/system/ulib/audio-utils/audio-output.cpp
+[static-deps]
+fbl
+fdio
+zx

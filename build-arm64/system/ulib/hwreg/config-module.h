@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "_system/ulib/fbl"
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I./build-arm64/system/ulib/fbl/gen/include_-Iglobal/include_-Isystem/ulib/fbl/include_-Isystem/ulib/hwreg/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64/config-user.h_./build-arm64/system/ulib/fbl/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/hwreg/printers.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/fbl"
+#define MODULE_TYPE "userlib"
+

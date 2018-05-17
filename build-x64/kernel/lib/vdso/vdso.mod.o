@@ -1,0 +1,1 @@
+INPUT(build-x64/kernel/lib/vdso/kernel/lib/vdso/rodso.cpp.o build-x64/kernel/lib/vdso/kernel/lib/vdso/vdso.cpp.o build-x64/kernel/lib/vdso/kernel/lib/vdso/vdso-image.S.o)

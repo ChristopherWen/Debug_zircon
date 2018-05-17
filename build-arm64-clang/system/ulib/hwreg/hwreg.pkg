@@ -1,0 +1,12 @@
+[package]
+name=hwreg
+type=lib
+arch=src
+[includes]
+hwreg/bitfields.h=SOURCE/system/ulib/hwreg/include/hwreg/bitfields.h
+hwreg/internal.h=SOURCE/system/ulib/hwreg/include/hwreg/internal.h
+hwreg/mmio.h=SOURCE/system/ulib/hwreg/include/hwreg/mmio.h
+[src]
+printers.cpp=SOURCE/system/ulib/hwreg/printers.cpp
+[deps]
+fbl

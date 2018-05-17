@@ -1,0 +1,16 @@
+[package]
+name=trace-reader
+type=lib
+arch=src
+[includes]
+trace-reader/reader.h=SOURCE/system/ulib/trace-reader/include/trace-reader/reader.h
+trace-reader/records.h=SOURCE/system/ulib/trace-reader/include/trace-reader/records.h
+[src]
+reader.cpp=SOURCE/system/ulib/trace-reader/reader.cpp
+records.cpp=SOURCE/system/ulib/trace-reader/records.cpp
+[static-deps]
+fbl
+trace-engine
+zxcpp
+[deps]
+c

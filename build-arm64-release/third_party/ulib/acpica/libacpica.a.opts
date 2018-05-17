@@ -1,0 +1,1 @@
+cr build-arm64-release/third_party/ulib/acpica/libacpica.a build-arm64-release/third_party/ulib/acpica/third_party/ulib/acpica/empty.c.o

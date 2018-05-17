@@ -1,0 +1,1 @@
+cr build-x64-release/system/utest/core/threads/test-threads/libtest-threads.a build-x64-release/system/utest/core/threads/test-threads/system/utest/core/threads/test-threads/threads.c.o

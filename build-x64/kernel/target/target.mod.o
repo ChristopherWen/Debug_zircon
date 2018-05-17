@@ -1,0 +1,1 @@
+INPUT(build-x64/kernel/target/kernel/target/init.cpp.o)

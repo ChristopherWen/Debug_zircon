@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/zx"
+#define MODULE_STATIC_LIBS "system/ulib/zx"
+#define MODULE_COMPILEFLAGS "-I./build-x64-release/system/ulib/zx/gen/include_-Iglobal/include_-Isystem/ulib/fbl/include_-Isystem/ulib/zx/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64-release/config-user.h_./build-x64-release/system/ulib/zx/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/fbl/alloc_checker.cpp_system/ulib/fbl/memory_probe.cpp_system/ulib/fbl/string.cpp_system/ulib/fbl/string_buffer.cpp_system/ulib/fbl/string_piece.cpp_system/ulib/fbl/string_printf.cpp_system/ulib/fbl/vmar_manager.cpp_system/ulib/fbl/vmo_mapper.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/zx"
+#define MODULE_TYPE "userlib"
+

@@ -1,0 +1,1 @@
+cr build-arm64/system/ulib/digest/libdigest.a build-arm64/system/ulib/digest/system/ulib/digest/digest.cpp.o build-arm64/system/ulib/digest/system/ulib/digest/merkle-tree.cpp.o

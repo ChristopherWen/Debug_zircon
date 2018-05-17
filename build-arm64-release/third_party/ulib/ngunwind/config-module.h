@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/zircon_system/ulib/c"
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-DDEBUG_-I./build-arm64-release/system/ulib/c/gen/include_-I./build-arm64-release/system/ulib/zircon/gen/include_-Iglobal/include_-Isystem/ulib/c/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/musl/include_-Ithird_party/ulib/ngunwind/include_-Ithird_party/ulib/ngunwind/include/ngunwind_-Ithird_party/ulib/ngunwind/include/ngunwind/private_-fno-omit-frame-pointer_-mno-omit-leaf-frame-pointer"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS "-O2"
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64-release/config-user.h_./build-arm64-release/system/ulib/c/gen-hdr.stamp_./build-arm64-release/system/ulib/zircon/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "third_party/ulib/ngunwind/src/aarch64/Gcreate_addr_space.c_third_party/ulib/ngunwind/src/aarch64/Gget_proc_info.c_third_party/ulib/ngunwind/src/aarch64/Gget_save_loc.c_third_party/ulib/ngunwind/src/aarch64/Gglobal.c_third_party/ulib/ngunwind/src/aarch64/Ginit.c_third_party/ulib/ngunwind/src/aarch64/Ginit_local.c_third_party/ulib/ngunwind/src/aarch64/Ginit_remote.c_third_party/ulib/ngunwind/src/aarch64/Gregs.c_third_party/ulib/ngunwind/src/aarch64/Gsignal_frame.c_third_party/ulib/ngunwind/src/aarch64/Gstash_frame.c_third_party/ulib/ngunwind/src/aarch64/Gstep.c_third_party/ulib/ngunwind/src/aarch64/fuchsia.c_third_party/ulib/ngunwind/src/aarch64/regname.c_third_party/ulib/ngunwind/src/dwarf/Gexpr.c_third_party/ulib/ngunwind/src/dwarf/Gfde.c_third_party/ulib/ngunwind/src/dwarf/Gfind_proc_info-lsb.c_third_party/ulib/ngunwind/src/dwarf/Gfind_unwind_table.c_third_party/ulib/ngunwind/src/dwarf/Gparser.c_third_party/ulib/ngunwind/src/dwarf/Gpe.c_third_party/ulib/ngunwind/src/dwarf/Gstep.c_third_party/ulib/ngunwind/src/dwarf/global.c_third_party/ulib/ngunwind/src/elf64.c_third_party/ulib/ngunwind/src/fuchsia.c_third_party/ulib/ngunwind/src/mi/Gdestroy_addr_space.c_third_party/ulib/ngunwind/src/mi/Gdyn-extract.c_third_party/ulib/ngunwind/src/mi/Gdyn-remote.c_third_party/ulib/ngunwind/src/mi/Gfind_dynamic_proc_info.c_third_party/ulib/ngunwind/src/mi/Gget_accessors.c_third_party/ulib/ngunwind/src/mi/Gget_fpreg.c_third_party/ulib/ngunwind/src/mi/Gget_proc_info_by_ip.c_third_party/ulib/ngunwind/src/mi/Gget_proc_name.c_third_party/ulib/ngunwind/src/mi/Gget_reg.c_third_party/ulib/ngunwind/src/mi/Gput_dynamic_unwind_info.c_third_party/ulib/ngunwind/src/mi/Gset_caching_policy.c_third_party/ulib/ngunwind/src/mi/Gset_fpreg.c_third_party/ulib/ngunwind/src/mi/Gset_reg.c_third_party/ulib/ngunwind/src/mi/common.c_third_party/ulib/ngunwind/src/mi/flush_cache.c_third_party/ulib/ngunwind/src/mi/init.c_third_party/ulib/ngunwind/src/mi/mempool.c_third_party/ulib/ngunwind/src/mi/strerror.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/zircon"
+#define MODULE_TYPE "userlib"
+

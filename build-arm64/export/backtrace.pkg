@@ -1,0 +1,15 @@
+[package]
+name=backtrace
+type=lib
+arch=arm64
+[includes]
+backtrace/backtrace-supported.h=SOURCE/third_party/ulib/backtrace/include/backtrace/backtrace-supported.h
+backtrace/backtrace.h=SOURCE/third_party/ulib/backtrace/include/backtrace/backtrace.h
+[lib]
+debug/libbacktrace.so=BUILD/third_party/ulib/backtrace/libbacktrace.so
+dist/libbacktrace.so=BUILD/third_party/ulib/backtrace/libbacktrace.so.strip
+lib/libbacktrace.so=BUILD/third_party/ulib/backtrace/libbacktrace.so.abi
+[deps]
+c
+ngunwind
+zircon

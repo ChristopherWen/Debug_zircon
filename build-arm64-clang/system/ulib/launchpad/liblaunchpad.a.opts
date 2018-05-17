@@ -1,0 +1,1 @@
+cr build-arm64-clang/system/ulib/launchpad/liblaunchpad.a build-arm64-clang/system/ulib/launchpad/system/ulib/launchpad/elf.c.o build-arm64-clang/system/ulib/launchpad/system/ulib/launchpad/launchpad.c.o build-arm64-clang/system/ulib/launchpad/system/ulib/launchpad/fdio.c.o build-arm64-clang/system/ulib/launchpad/system/ulib/launchpad/vmo.c.o

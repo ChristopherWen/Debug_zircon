@@ -1,0 +1,15 @@
+[package]
+name=launchpad
+type=lib
+arch=x86
+[includes]
+launchpad/launchpad.h=SOURCE/system/ulib/launchpad/include/launchpad/launchpad.h
+launchpad/vmo.h=SOURCE/system/ulib/launchpad/include/launchpad/vmo.h
+[lib]
+debug/liblaunchpad.so=BUILD/system/ulib/launchpad/liblaunchpad.so
+dist/liblaunchpad.so=BUILD/system/ulib/launchpad/liblaunchpad.so.strip
+lib/liblaunchpad.so=BUILD/system/ulib/launchpad/liblaunchpad.so.abi
+[deps]
+c
+fdio
+zircon

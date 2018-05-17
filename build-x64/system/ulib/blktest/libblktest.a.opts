@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/blktest/libblktest.a build-x64/system/ulib/blktest/system/ulib/blktest/blktest.cpp.o

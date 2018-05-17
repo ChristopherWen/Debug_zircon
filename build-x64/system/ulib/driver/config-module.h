@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/fdio_system/ulib/zircon_system/ulib/c"
+#define MODULE_STATIC_LIBS "system/ulib/ddk_system/ulib/fidl_system/ulib/sync_system/ulib/port"
+#define MODULE_COMPILEFLAGS "-I./build-x64/system/ulib/c/gen/include_-I./build-x64/system/ulib/ddk/gen/include_-I./build-x64/system/ulib/fdio/gen/include_-I./build-x64/system/ulib/fidl/gen/include_-I./build-x64/system/ulib/port/gen/include_-I./build-x64/system/ulib/sync/gen/include_-I./build-x64/system/ulib/zircon/gen/include_-Iglobal/include_-Isystem/ulib/c/include_-Isystem/ulib/ddk/include_-Isystem/ulib/driver/include_-Isystem/ulib/fdio/include_-Isystem/ulib/fidl/include_-Isystem/ulib/port/include_-Isystem/ulib/sync/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/musl/include_-fvisibility=hidden"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64/config-user.h_./build-x64/system/ulib/c/gen-hdr.stamp_./build-x64/system/ulib/ddk/gen-hdr.stamp_./build-x64/system/ulib/fdio/gen-hdr.stamp_./build-x64/system/ulib/fidl/gen-hdr.stamp_./build-x64/system/ulib/port/gen-hdr.stamp_./build-x64/system/ulib/sync/gen-hdr.stamp_./build-x64/system/ulib/zircon/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/core/devmgr/devhost-api.c_system/core/devmgr/devhost-core.c_system/core/devmgr/devhost-rpc-server.c_system/core/devmgr/devhost-shared.c_system/core/devmgr/devhost.c_system/ulib/driver/usb.c"
+#define MODULE_HEADER_DEPS "system/ulib/c_system/ulib/ddk_system/ulib/fdio_system/ulib/fidl_system/ulib/port_system/ulib/sync_system/ulib/zircon"
+#define MODULE_TYPE "userlib"
+

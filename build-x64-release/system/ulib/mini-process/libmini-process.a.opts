@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/mini-process/libmini-process.a build-x64-release/system/ulib/mini-process/system/ulib/mini-process/mini-process.c.o build-x64-release/system/ulib/mini-process/system/ulib/mini-process/subprocess.c.o

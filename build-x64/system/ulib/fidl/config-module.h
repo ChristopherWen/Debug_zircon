@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS "system/ulib/zircon"
+#define MODULE_STATIC_LIBS ""
+#define MODULE_COMPILEFLAGS "-I./build-x64/system/ulib/zircon/gen/include_-Iglobal/include_-Isystem/ulib/fidl/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-x64/config-user.h_./build-x64/system/ulib/zircon/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/fidl/builder.cpp_system/ulib/fidl/decoding.cpp_system/ulib/fidl/encoding.cpp_system/ulib/fidl/formatting.cpp_system/ulib/fidl/message.cpp_system/ulib/fidl/message_buffer.cpp_system/ulib/fidl/message_builder.cpp_system/ulib/fidl/validating.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/zircon"
+#define MODULE_TYPE "userlib"
+

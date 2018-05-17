@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS ""
+#define MODULE_STATIC_LIBS "system/ulib/runtime"
+#define MODULE_COMPILEFLAGS "-DWITH_LZ4_NOALLOC_-I./build-arm64-release/system/ulib/bootdata/gen/include_-I./build-arm64-release/system/ulib/elfload/gen/include_-I./build-arm64-release/system/ulib/ldmsg/gen/include_-I./build-arm64-release/system/ulib/runtime/gen/include_-I./build-arm64-release/system/ulib/zircon/gen/include_-I./build-arm64-release/third_party/ulib/lz4/gen/include_-Iglobal/include_-Isystem/core/userboot/include_-Isystem/ulib/bootdata/include_-Isystem/ulib/elfload/include_-Isystem/ulib/ldmsg/include_-Isystem/ulib/runtime/include_-Isystem/ulib/zircon/include_-Ithird_party/ulib/lz4/include_-Ithird_party/ulib/lz4/include/lz4_-Ithird_party/ulib/musl/include_-Ithird_party/ulib/musl/src/internal_-fvisibility=hidden"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS "-T_-e__start_scripts/rodso.ld"
+#define MODULE_SRCDEPS "./build-arm64-release/config-user.h_./build-arm64-release/system/ulib/runtime/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/core/userboot/bootdata.c_system/core/userboot/bootfs.c_system/core/userboot/loader-service.c_system/core/userboot/option.c_system/core/userboot/start.c_system/core/userboot/userboot-elf.c_system/core/userboot/util.c_system/ulib/bootdata/decompress.c_system/ulib/elfload/elf-load.c_system/ulib/ldmsg/ldmsg.c_third_party/ulib/lz4/lz4.c_third_party/ulib/musl/src/string/memcmp.c_third_party/ulib/musl/src/string/memcpy.c_third_party/ulib/musl/src/string/memmove.c_third_party/ulib/musl/src/string/memset.c_third_party/ulib/musl/src/string/strlen.c_third_party/ulib/musl/src/string/strncmp.c"
+#define MODULE_HEADER_DEPS "system/ulib/bootdata_system/ulib/elfload_system/ulib/ldmsg_system/ulib/runtime_system/ulib/zircon_third_party/ulib/lz4"
+#define MODULE_TYPE "driver"
+

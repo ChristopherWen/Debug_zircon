@@ -1,0 +1,1 @@
+cr build-arm64/system/ulib/audio-driver-proto/libaudio-driver-proto.a build-arm64/system/ulib/audio-driver-proto/system/ulib/audio-driver-proto/audio-proto.cpp.o

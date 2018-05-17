@@ -1,0 +1,1 @@
+INPUT(build-arm64/kernel/lib/userboot/kernel/lib/userboot/userboot.cpp.o build-arm64/kernel/lib/userboot/kernel/lib/userboot/userboot-image.S.o)

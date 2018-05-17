@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/gpt/libgpt.a build-x64-release/system/ulib/gpt/system/ulib/gpt/cros.c.o build-x64-release/system/ulib/gpt/system/ulib/gpt/gpt.c.o

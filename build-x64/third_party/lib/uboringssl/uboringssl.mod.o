@@ -1,0 +1,1 @@
+INPUT(build-x64/third_party/lib/uboringssl/third_party/ulib/uboringssl/crypto/chacha/chacha.c.o build-x64/third_party/lib/uboringssl/third_party/ulib/uboringssl/crypto/fipsmodule/sha/sha256.c.o build-x64/third_party/lib/uboringssl/third_party/ulib/uboringssl/crypto/fipsmodule/sha/sha512.c.o)

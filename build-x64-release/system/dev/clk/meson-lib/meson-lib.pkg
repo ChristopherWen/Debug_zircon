@@ -1,0 +1,15 @@
+[package]
+name=meson-lib
+type=lib
+arch=x86
+[includes]
+dev/clk/meson-lib/meson.h=SOURCE/system/dev/clk/meson-lib/include/dev/clk/meson-lib/meson.h
+[lib]
+lib/libmeson-lib.a=BUILD/system/dev/clk/meson-lib/libmeson-lib.a
+[static-deps]
+ddk
+sync
+[deps]
+c
+driver
+zircon

@@ -1,0 +1,12 @@
+[package]
+name=async-default
+type=lib
+arch=x86
+[includes]
+lib/async/default.h=SOURCE/system/ulib/async/include/lib/async/default.h
+[lib]
+debug/libasync-default.so=BUILD/system/ulib/async.default/libasync.default.so
+dist/libasync-default.so=BUILD/system/ulib/async.default/libasync.default.so.strip
+lib/libasync-default.so=BUILD/system/ulib/async.default/libasync.default.so.abi
+[deps]
+c

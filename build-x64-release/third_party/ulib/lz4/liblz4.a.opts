@@ -1,0 +1,1 @@
+cr build-x64-release/third_party/ulib/lz4/liblz4.a build-x64-release/third_party/ulib/lz4/third_party/ulib/lz4/lz4.c.o build-x64-release/third_party/ulib/lz4/third_party/ulib/lz4/lz4frame.c.o build-x64-release/third_party/ulib/lz4/third_party/ulib/lz4/lz4hc.c.o build-x64-release/third_party/ulib/lz4/third_party/ulib/lz4/xxhash.c.o

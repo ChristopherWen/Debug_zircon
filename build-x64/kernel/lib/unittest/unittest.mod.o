@@ -1,0 +1,1 @@
+INPUT(build-x64/kernel/lib/unittest/kernel/lib/unittest/unittest.cpp.o build-x64/kernel/lib/unittest/kernel/lib/unittest/user_memory.cpp.o)

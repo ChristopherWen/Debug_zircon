@@ -1,0 +1,15 @@
+#pragma once
+#define MODULE_LIBS ""
+#define MODULE_STATIC_LIBS "system/ulib/audio-proto-utils_system/ulib/audio-driver-proto_system/ulib/ddk_system/ulib/dispatcher-pool_system/ulib/fbl_system/ulib/zx_"
+#define MODULE_COMPILEFLAGS "-I./build-arm64-clang/system/ulib/audio-driver-proto/gen/include_-I./build-arm64-clang/system/ulib/audio-proto-utils/gen/include_-I./build-arm64-clang/system/ulib/ddk/gen/include_-I./build-arm64-clang/system/ulib/dispatcher-pool/gen/include_-I./build-arm64-clang/system/ulib/fbl/gen/include_-I./build-arm64-clang/system/ulib/zx/gen/include_-Iglobal/include_-Isystem/ulib/audio-driver-proto/include_-Isystem/ulib/audio-proto-utils/include_-Isystem/ulib/ddk/include_-Isystem/ulib/dispatcher-pool/include_-Isystem/ulib/fbl/include_-Isystem/ulib/intel-hda/include_-Isystem/ulib/zx/include_-Ithird_party/ulib/musl/include"
+#define MODULE_CFLAGS ""
+#define MODULE_CPPFLAGS ""
+#define MODULE_ASMFLAGS ""
+#define MODULE_OPTFLAGS ""
+#define MODULE_LDFLAGS ""
+#define MODULE_SRCDEPS "./build-arm64-clang/config-user.h_./build-arm64-clang/system/ulib/audio-driver-proto/gen-hdr.stamp_./build-arm64-clang/system/ulib/audio-proto-utils/gen-hdr.stamp_./build-arm64-clang/system/ulib/ddk/gen-hdr.stamp_./build-arm64-clang/system/ulib/dispatcher-pool/gen-hdr.stamp_./build-arm64-clang/system/ulib/fbl/gen-hdr.stamp_./build-arm64-clang/system/ulib/zx/gen-hdr.stamp"
+#define MODULE_DEPS ""
+#define MODULE_SRCS "system/ulib/intel-hda/codec-utils/codec-driver-base.cpp_system/ulib/intel-hda/codec-utils/stream-base.cpp_system/ulib/intel-hda/utils/codec-caps.cpp_system/ulib/intel-hda/utils/pinned-vmo.cpp_system/ulib/intel-hda/utils/utils.cpp"
+#define MODULE_HEADER_DEPS "system/ulib/audio-driver-proto_system/ulib/audio-proto-utils_system/ulib/ddk_system/ulib/dispatcher-pool_system/ulib/fbl_system/ulib/zx"
+#define MODULE_TYPE "userlib"
+

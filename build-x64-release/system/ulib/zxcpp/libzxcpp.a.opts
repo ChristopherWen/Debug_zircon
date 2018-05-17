@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/zxcpp/libzxcpp.a build-x64-release/system/ulib/zxcpp/system/ulib/zxcpp/new.cpp.o build-x64-release/system/ulib/zxcpp/system/ulib/zxcpp/pure_virtual.cpp.o build-x64-release/system/ulib/zxcpp/system/ulib/zxcpp/thread_atexit.cpp.o

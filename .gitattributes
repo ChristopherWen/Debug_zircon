@@ -1,0 +1,5 @@
+prebuilt/downloads/clang/bin/clang-7 filter=lfs diff=lfs merge=lfs -text
+prebuilt/downloads/clang/lib/libclang.so.7 filter=lfs diff=lfs merge=lfs -text
+prebuilt/downloads/clang.zip filter=lfs diff=lfs merge=lfs -text
+prebuilt/downloads/gcc.zip filter=lfs diff=lfs merge=lfs -text
+prebuilt/downloads/sysroot.zip filter=lfs diff=lfs merge=lfs -text

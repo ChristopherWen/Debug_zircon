@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/pretty/libpretty.a build-x64-release/system/ulib/pretty/system/ulib/pretty/hexdump.c.o build-x64-release/system/ulib/pretty/system/ulib/pretty/sizes.c.o

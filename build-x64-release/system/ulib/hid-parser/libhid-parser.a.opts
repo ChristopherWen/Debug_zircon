@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/hid-parser/libhid-parser.a build-x64-release/system/ulib/hid-parser/system/ulib/hid-parser/item.cpp.o build-x64-release/system/ulib/hid-parser/system/ulib/hid-parser/parser.cpp.o

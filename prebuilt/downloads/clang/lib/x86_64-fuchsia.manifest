@@ -1,0 +1,9 @@
+lib/libclang_rt.asan-x86_64.so=clang/7.0.0/lib/fuchsia/libclang_rt.asan-x86_64.so
+lib/libclang_rt.ubsan_standalone-x86_64.so=clang/7.0.0/lib/fuchsia/libclang_rt.ubsan_standalone-x86_64.so
+lib/libclang_rt.scudo-x86_64.so=clang/7.0.0/lib/fuchsia/libclang_rt.scudo-x86_64.so
+lib/libc++.so.2=x86_64-fuchsia/lib/libc++.so.2
+lib/libc++abi.so.1=x86_64-fuchsia/lib/libc++abi.so.1
+lib/libunwind.so.1=x86_64-fuchsia/lib/libunwind.so.1
+lib/asan/libc++.so.2=x86_64-fuchsia/lib/asan/libc++.so.2
+lib/asan/libc++abi.so.1=x86_64-fuchsia/lib/asan/libc++abi.so.1
+lib/asan/libunwind.so.1=x86_64-fuchsia/lib/asan/libunwind.so.1

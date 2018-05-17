@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/bitmap/libbitmap.a build-x64/system/ulib/bitmap/system/ulib/bitmap/raw-bitmap.cpp.o build-x64/system/ulib/bitmap/system/ulib/bitmap/rle-bitmap.cpp.o

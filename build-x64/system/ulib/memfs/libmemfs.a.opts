@@ -1,0 +1,1 @@
+cr build-x64/system/ulib/memfs/libmemfs.a build-x64/system/ulib/memfs/system/ulib/memfs/directory.cpp.o build-x64/system/ulib/memfs/system/ulib/memfs/dnode.cpp.o build-x64/system/ulib/memfs/system/ulib/memfs/file.cpp.o build-x64/system/ulib/memfs/system/ulib/memfs/memfs.cpp.o build-x64/system/ulib/memfs/system/ulib/memfs/vmo.cpp.o

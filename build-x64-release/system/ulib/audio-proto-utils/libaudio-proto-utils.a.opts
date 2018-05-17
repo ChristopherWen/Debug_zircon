@@ -1,0 +1,1 @@
+cr build-x64-release/system/ulib/audio-proto-utils/libaudio-proto-utils.a build-x64-release/system/ulib/audio-proto-utils/system/ulib/audio-proto-utils/format-utils.cpp.o

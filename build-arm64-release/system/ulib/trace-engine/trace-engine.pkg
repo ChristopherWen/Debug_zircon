@@ -1,0 +1,17 @@
+[package]
+name=trace-engine
+type=lib
+arch=arm64
+[includes]
+trace-engine/context.h=SOURCE/system/ulib/trace-engine/include/trace-engine/context.h
+trace-engine/fields.h=SOURCE/system/ulib/trace-engine/include/trace-engine/fields.h
+trace-engine/handler.h=SOURCE/system/ulib/trace-engine/include/trace-engine/handler.h
+trace-engine/instrumentation.h=SOURCE/system/ulib/trace-engine/include/trace-engine/instrumentation.h
+trace-engine/types.h=SOURCE/system/ulib/trace-engine/include/trace-engine/types.h
+[lib]
+debug/libtrace-engine.so=BUILD/system/ulib/trace-engine/libtrace-engine.so
+dist/libtrace-engine.so=BUILD/system/ulib/trace-engine/libtrace-engine.so.strip
+lib/libtrace-engine.so=BUILD/system/ulib/trace-engine/libtrace-engine.so.abi
+[deps]
+c
+zircon

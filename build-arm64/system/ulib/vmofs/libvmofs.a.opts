@@ -1,0 +1,1 @@
+cr build-arm64/system/ulib/vmofs/libvmofs.a build-arm64/system/ulib/vmofs/system/ulib/vmofs/vmofs.cpp.o
